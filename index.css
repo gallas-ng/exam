@@ -1,0 +1,284 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Concert One', cursive;
+	
+}
+body{
+	background-image:url("maxresdefault (3).jpg");
+	background-repeat: repeat;
+	background-size: 100% 50%;
+}
+.nbr{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	background-color: url("pexels-photo-924824.jpeg");
+}
+.nav1{
+	
+	width: 100%;
+	position: fixed;
+	background-color: tan;
+	padding: 15px;
+	margin-top: -150px;
+
+}
+.sigle{
+	border:5px groove brown;
+	border-radius: 9px;
+}
+.sigle a{
+	font-family: 'Courgette', cursive;
+	color: saddlebrown;
+	font-size: 30px;
+
+}
+.sigle span{
+	color: gold;
+}
+.menu{
+	padding-top: 10px;
+	padding-left: : 300px;
+
+
+}
+.menu li{
+	display: inline-block;
+	border:4px groove gold;
+	color: saddlebrown;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 0px;
+	transition: color 0.5s;
+
+}
+.menu a li:hover{
+	color: black;
+}
+.menu li a{
+	color: saddlebrown;
+}
+.mn::after{
+    content: ">";
+    font-size: 20px;
+    font-weight: 600;
+}
+.sous{
+    display: none;
+    position: absolute;
+}
+
+.sous li{
+    border: 2px solid white;
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color: tan;
+
+}
+.nav1 .menu li:hover .sous{ 
+        display: block;
+}
+.home{
+
+	margin: 150px 50px 50px 50px;
+	width: 1200px;
+	height: 470px;
+	background: url('touba-senegal-monument-poster-template--world-travel-yellow-illu-png_294442.jpg');
+	display: flex;
+	border: 8px outset brown;
+	border-radius: 2px;
+}
+.home p{
+	padding: 20px;
+	font-size: 40px;
+	font-weight: 400;
+	color:saddlebrown;
+}
+.home .di1{
+	margin-left: 200px;
+}
+.home .but{
+	display: inline-block;
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: tan;
+	border:4px dashed saddlebrown;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+.home.but:hover{
+	background: none;
+}
+.sec3 .titre{
+	margin-left: 500px;
+	width:  300px;
+	margin-top: 50px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline tan; 
+	margin-bottom: 100px;
+	color: gold;
+	box-shadow: 12px 12px 12px 12px white;
+	
+}
+.sec3 .DIV3{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20PX ;
+	margin-top: 60px;
+	
+}
+.sec3 .div-left{
+	width: 65%;
+	
+}
+.sec3 .div-right{
+	width: 35%;
+	
+}
+.sec3 .div-left img{
+	margin-left: 100px  ;
+	height: 400px;
+	width:500px;
+	border-radius: 20px;
+	border: 4px outset brown;
+
+}
+.sec3 .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: gold;
+}
+.sec3 .div-right .text span{
+	color: #CD7F32;
+}
+.sec3 .div-right  p{
+	text-align: justify;
+	font-size: 27px;
+
+}
+.sec3 .div-right a{
+	display: inline-block;
+	color:brown;
+	font-size: 40px;
+	font-weight: 400;
+	background-color:tan;
+	border:2px solid brown;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+.sec3 .div-right a:hover{
+	background:none;
+	color: tan;
+}
+i{
+	color: brown;
+	font-size: 30px;
+}
+
+.div5 h2{
+	color: #DAA520;
+
+
+}
+.div5{
+	display:flex;
+	flex-wrap: wrap;
+	
+	margin-top: 60px;
+	margin: auto;
+	width: 1000px;
+	margin-bottom: 50px;
+	
+}
+
+.div5 .div6{
+	width: 50%;
+
+	
+}
+}
+.div5 .div7{
+	width: 50%;
+
+}
+
+.div6 p{
+	color: brown;
+	padding-left: 9px;
+	font-family: cursive;
+	border-radius: 20px;
+	border:2px solid brown;
+	background-color: tan;
+}
+
+.div7{
+	padding-left: 20px;
+	margin-left: 40px;
+	border-radius: 20px;
+	border:4px solid brown;
+	background-color: tan;
+}
+}
+.div7 input{
+	margin-left: 20px;
+	margin: 20px;
+	border-radius: 7px;
+	height: 30px;
+	margin-top: 4px;
+	border:;
+
+
+}
+.div7 .inp{
+	border:3px dotted saddlebrown;
+}
+
+.div7 textarea{
+	width:200px;
+	height:150px;
+	margin-top: 4px;
+	border-radius: 3px;
+}
+.div7 .buton{
+	display: inline-block;
+	color:brown;
+	font-size: 20px;
+	font-family: cursive;
+	background-color:#DAA520;
+	border:4px solid crimson;
+	border-radius: 10px;
+	margin-top: 9px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.div7 .buton:hover{
+	background: none;
+}
+.div7 label{
+	font-size: 20px;
+	margin: 10px;
+	color: brown;
+	text-decoration: underline;
+}
+footer{
+	font-size: 30PX;
+	width: 100%;
+	height: 50px;
+	background-color:  black;
+	color: antiquewhite;
+	text-align: center;
+
+}
+footer span{
+	color: gold;
+}

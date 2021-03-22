@@ -1,0 +1,210 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Concert One', cursive;
+}
+body{
+	background:url(EuD7p1bXEAM7b7m.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.nbr{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.nav1{
+	width: 100%;
+	position: fixed;
+	background-color: tan;
+	padding: 15px;
+	margin-top: -100px;
+
+
+}
+.sigle{
+	border:5px groove brown;
+	border-radius: 9px;
+}
+.sigle a{
+	font-family: 'Courgette', cursive;
+	color: saddlebrown;
+	font-size: 30px;
+
+}
+.sigle span{
+	color: gold;
+}
+.menu{
+	padding-top: 10px;
+	padding-left: : 100px;
+
+
+}
+.menu li{
+	border:4px groove gold;
+	display: inline-block;
+	color: saddlebrown;
+	font-size: 20px;
+	font-weight: 150;
+	margin-left: 0px;
+	transition: color 0.5s;
+
+}
+.menu a li:hover{
+	color: black;
+}
+.menu li a{
+	color: saddlebrown;
+}
+.mn::after{
+    content: ">";
+    font-size: 20px;
+    font-weight: 600;
+}
+.sous{
+    display: none;
+    position: absolute;
+}
+
+.sous li{
+    border: 2px solid white;
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color: tan;
+
+}
+.nav1 .menu li:hover .sous{ 
+        display: block;
+}
+.h {
+	text-decoration: underline;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.h h1{
+	color: gold;
+}
+.s1{
+	width: 80%;
+	height: 400px;
+	display: inline-flex;
+	margin-left: 150px;
+	margin-bottom: 100px;
+}
+.s1 .d1{
+	width: 45%;
+	height: 390px;
+	border: 20px groove saddlebrown;
+	margin: 15px;
+
+}
+.s1 .d2{
+	width: 45%;
+	height: 390px;
+	border: 20px dotted saddlebrown;
+	margin: 15px;
+    background-color: tan;
+	overflow: scroll;;
+}
+.d2 p{
+	font-size: 30px;
+}
+
+.s1 .d1 img{
+	width: 100%;
+	height: 390px;
+}
+.s11{
+	width: 80%;
+	height: 400px;
+	display: inline-flex;
+	margin-left: 150px;
+	margin-bottom: 100px;
+}
+.s11 .d11{
+	width: 45%;
+	height: 390px;
+	border: 20px dotted saddlebrown;
+	margin: 15px;
+	background-color: tan;
+}
+.s11 .d22{
+	width: 45%;
+	height: 390px;
+	border: 20px groove saddlebrown;
+	margin: 15px;
+}
+.d11 p{
+	font-size: 30px;
+}
+.s11 .d22 img{
+	width: 100%;
+	height: 390px;
+}
+.ss2{
+	width: 90%;
+	height: 300px;
+	margin-bottom: 20px;
+	display: inline-flex;
+	margin-left: 70px;
+	margin-bottom: 90px;
+}
+.d11{
+	width: 25%;
+	height: 280px;
+	margin: 20px;
+	border: 10px dotted tan;
+}
+.d11 img{
+	width: 100%;
+	height: 280px;
+}
+.d10{
+	width: 50%;
+	height: 280px;
+	margin: 30px;
+	border:15px solid tan;
+}
+.d10 img{
+	width: 100%;
+	height: 280px;
+}
+.d12{
+	width: 25%;
+	height: 280px;
+	margin: 20px;
+	border: 10px dotted tan;
+}
+.d12 img{
+	width: 100%;
+	height: 280px;
+}
+.di22{
+	width: 50%;
+	height:230px;
+	border:20px groove tan;
+	margin-left: 320px;
+	margin-bottom: 70px;
+	background-color: gold;
+}
+.di22 p{
+	font-size: 20px;
+	color: gray;
+
+}
+footer{
+	font-size: 30PX;
+	width: 100%;
+	height: 50px;
+	background-color:  black;
+	color: antiquewhite;
+	text-align: center;
+
+}
+footer span{
+	color: gold;
+}
